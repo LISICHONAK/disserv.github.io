@@ -1,0 +1,4 @@
+function show(type='lol',title='undefinied',text){let elem=document.createElement('div');elem.className='toast '+type;elem.innerHTML=`<div class="toastHeader"><span class="toastHeaderText">${title}</span><button class="toastHeaderButton"><i class="fas fa-times"></i></button></div>
+			${text?`<div class="toastContent">${text}</div>`:''}
+			<div class="toastTimer"></div>`;document.getElementsByClassName('toastContainer')[0].insertBefore(elem,document.getElementsByClassName('toastContainer')[0].firstChild);setTimeout(()=>{elem.className+=' toastFade';setTimeout(()=>document.getElementsByClassName('toastContainer')[0].removeChild(elem),250);},10*1e3);}
+$('div.toastContainer').on('click','button.toastHeaderButton',function(e){e.currentTarget.parentElement.parentElement.className+=' toastFade';setTimeout(()=>e.currentTarget.parentElement.parentElement.remove(),250);});
