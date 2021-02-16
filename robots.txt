@@ -1,6 +1,2 @@
 User-agent: *
 Allow: /
-Disallow: /login
-Disallow: /my
-Host: server-discord.com
-Sitemap: https://server-discord.com/sitemap.xml
