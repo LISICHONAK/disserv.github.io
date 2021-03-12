@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Edition-Desktop-XL" transform="translate(-556.000000, -260.000000)" fill="#196D17">
+            <g id="Hero" transform="translate(364.500000, 154.000000)">
+                <g id="Back-Button" transform="translate(191.500000, 100.000000)">
+                    <g id="lcaret-sm" transform="translate(0.000000, 6.000000)">
+                        <path d="M4,0 L6,0 L6,2 L4,2 L4,0 Z M2,2 L4,2 L4,4 L2,4 L2,2 Z M0,4 L2,4 L2,6 L0,6 L0,4 Z M2,6 L4,6 L4,8 L2,8 L2,6 Z M4,8 L6,8 L6,10 L4,10 L4,8 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
