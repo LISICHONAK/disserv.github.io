@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /en-us/terms/R1
-
-Sitemap: https://www.minecraft.net/en-us/sitemap.xml
